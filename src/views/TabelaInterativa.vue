@@ -20,7 +20,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "TabelaInterativa",
 
@@ -47,7 +47,7 @@ export default {
   },
 
   methods: {
-    toggleColor(row, col) {
+    toggleColor(row: number, col: number) {
       const cell = this.table[row][col];
       cell.color = cell.color === "#ffffff" ? "#ffd447" : "#ffffff";
     },

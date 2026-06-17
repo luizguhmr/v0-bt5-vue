@@ -130,6 +130,8 @@ watch(
 </script>
 
 <style scoped>
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
 :global(body) {
   margin: 0;
   padding: 0;
@@ -256,6 +258,4 @@ watch(
   left: 2rem;
   right: 2rem;
 }
-
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 </style>

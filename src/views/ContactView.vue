@@ -201,7 +201,7 @@ const resetForm = () => {
             width="100%"
             height="400"
             style="border: 0"
-            allowfullscreen=""
+            :allowfullscreen="true"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
